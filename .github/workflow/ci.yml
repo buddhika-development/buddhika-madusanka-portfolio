@@ -13,14 +13,14 @@ jobs:
   # what is the operating system need to runs ci process
   runs-on: ubuntu-latest
       
-    # what are the steps need to follow in the flow
-    steps:
-      - uses: actions/checkout@v3
-      
-      # install node dependencies
-      - name: Install Depencencies
-        run: npm install
+  # what are the steps need to follow in the flow
+  steps:
+    - uses: actions/checkout@v3
         
-      #  make the build of the project
-      - name: Build the project
-        run: npm run build
+  # install node dependencies
+  - name: Install Depencencies
+    run: npm install
+
+  #  make the build of the project
+  - name: Build the project
+    run: npm run build
