@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Anton, Poppins } from "next/font/google";
 import "./styles/globals.css";
 import "./styles/common.css"
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const PoppinsLatin = Poppins({
+  variable: "--font-poppins",
+  weight:['400', '500', '600', '700', '800', '900'],
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const AntonFonts = Anton({
+  variable: "--font-anton" ,
+  subsets: ['latin'],
+  weight: '400',  // Anton only has one weight
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: "Buddhika Madusanka",
@@ -26,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${PoppinsLatin.variable} antialiased`}
       >
         {children}
       </body>
