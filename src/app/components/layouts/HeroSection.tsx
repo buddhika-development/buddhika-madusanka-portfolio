@@ -6,7 +6,7 @@ import EmailSendMessage from "../ui/EmailSendMessage";
 
 const HeroSection = () => {
   return (
-    <div className="bg-primary w-full h-full p-8 flex md:px-20 md:flex-col md:overflow-x-scroll
+    <div className="bg-primary w-full h-full px-8 flex md:px-20 md:flex-col md:overflow-x-scroll
                     lg:flex-row lg:rounded-4xl ">
       {/* text section 
       There need to include welcome text and attractive text about personality
