@@ -1,0 +1,9 @@
+@import url("./globals.css");
+
+.background-glow{
+    width: 1000px;
+    height: 1000px;
+    background-image: radial-gradient(closest-side, var(--color-tertairy), transparent);
+    position: absolute;
+    z-index: 0;
+}

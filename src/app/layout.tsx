@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${PoppinsLatin.variable} antialiased`}
+        className={`${PoppinsLatin.variable} ${AntonFonts.variable} antialiased`}
       >
         {children}
       </body>
