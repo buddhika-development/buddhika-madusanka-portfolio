@@ -5,7 +5,7 @@ export default function Home() {
     <div className="w-full h-full">
 
       {/* hero section */}
-      <div className="p-10 w-full h-full">
+      <div className="lg:p-10 w-full h-full">
         <HeroSection />
       </div>
       
