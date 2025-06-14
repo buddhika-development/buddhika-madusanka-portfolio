@@ -5,13 +5,18 @@
   --foreground: #482500;
 
   --primary-color: #FF671C;
-  --secondary-color: #482500;
-  --tertiary-color: #FFA041;
+  --secondary-color: #2f1900;
+  --tertairy-color: #FFA041;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-tertairy: var(--tertairy-color);
+  
   --font-poppins: var(--font-poppins);
   --font-anton: var(--font-anton);
 }
@@ -20,4 +25,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-poppins);
+  width: 100vw;
+  height: 100vh;
 }
