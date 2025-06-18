@@ -7,7 +7,7 @@ import EmailSendMessage from "../ui/EmailSendMessage";
 const SelfIntroductionSection = () => {
   return (
     <div className="w-full mb-16">
-      <div className="bg-primary md:h-fit md:py-8 lg:h-[450px] flex justify-end items-end lg:mt-[260px] rounded-2xl">
+      <div className="bg-primary md:h-fit md:py-8 lg:py-0 lg:h-[500px] flex justify-end items-end lg:mt-[260px] rounded-2xl">
         {/* image section */}
         <div className=" lg:flex lg:justify-center hidden lg:w-3/8">
           <Image
