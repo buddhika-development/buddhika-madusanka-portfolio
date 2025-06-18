@@ -19,7 +19,7 @@ export default function Home() {
 
 
       {/* self introduction section */}
-      <div className="px-10">
+      <div className="md:px-10">
         <SelfIntroductionSection />
       </div>      
       

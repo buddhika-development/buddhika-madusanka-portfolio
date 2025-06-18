@@ -26,7 +26,7 @@ const SelfIntroductionSection = () => {
             <SmallTitle titleContent="Buddhika Madusanka" />
           </div>
           <div className="mt-5">
-            <p>I'm Buddhika Madusanka, an idea creator, designer, and developer passionate about solving real-world problems to improve lives. I transform innovative concepts into practical solutions using creative design and robust code. Embracing new technologies, I build user-focused, impactful applications that inspire. With clarity and purpose, I blend logic and expertise to create sustainable solutions that address everyday challenges. My goal is to craft meaningful experiences that drive progress and empower communities through technology.</p>
+            <p className="text-[14px] md:text-lg">I'm Buddhika Madusanka, an idea creator, designer, and developer passionate about solving real-world problems to improve lives. I transform innovative concepts into practical solutions using creative design and robust code. Embracing new technologies, I build user-focused, impactful applications that inspire. With clarity and purpose, I blend logic and expertise to create sustainable solutions that address everyday challenges. My goal is to craft meaningful experiences that drive progress and empower communities through technology.</p>
           </div>
           <div className="mt-5">
             <EmailSendMessage />
