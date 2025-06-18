@@ -1,4 +1,5 @@
 import HeroSection from "./components/layouts/HeroSection";
+import ProductionWorkflow from "./components/layouts/ProductionWorkflow";
 import SecondUISection from "./components/layouts/SecondUISection";
 import SelfIntroductionSection from "./components/layouts/SelfIntroductionSection";
 
@@ -21,7 +22,12 @@ export default function Home() {
       {/* self introduction section */}
       <div className="md:px-10">
         <SelfIntroductionSection />
-      </div>      
+      </div>
+
+
+      <div className="px-10">
+        <ProductionWorkflow />
+      </div> 
       
     </div>
   );
