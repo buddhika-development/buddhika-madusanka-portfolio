@@ -1,4 +1,5 @@
 import HeroSection from "./components/layouts/HeroSection";
+import SecondUISection from "./components/layouts/SecondUISection";
 
 export default function Home() {
   return (
@@ -8,6 +9,13 @@ export default function Home() {
       <div className="lg:p-10 w-full h-full">
         <HeroSection />
       </div>
+
+
+      {/* secondary section */}      
+      <div className="px-10">
+        <SecondUISection />
+      </div>
+      
       
     </div>
   );
